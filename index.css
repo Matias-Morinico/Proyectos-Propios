@@ -1,0 +1,93 @@
+* {
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+header {
+  background-color: #2d3047;
+}
+
+img {
+  vertical-align: top;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1.3rem;
+}
+header nav .menu .link a {
+  padding: 1rem 0.8rem;
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.6rem solid transparent;
+  transition: border 0.3s ease;
+}
+
+header nav .menu .link a:hover {
+  border-bottom-color: turquoise;
+}
+
+header nav .menu .link a.active {
+  border-bottom-color: yellow;
+}
+
+.logo {
+  width: 4rem;
+  height: 3rem;
+  padding: 2rem;
+  max-width: 100%;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ededed;
+}
+
+.container:first-child {
+  flex: 1;
+  padding: 1.6rem;
+  min-width: 13.020833333333vh;
+  margin: 1.6rem;
+  background-color: white;
+}
+
+.container {
+  flex: 2;
+  background-color: white;
+  margin: 1.6rem;
+  padding: 1.6rem;
+}
+
+.entry-content li {
+  padding-bottom: 0.6rem;
+}
+
+.content-front li {
+  padding-bottom: 0.6rem;
+}
+
+.content-back li {
+  padding-bottom: 0.6rem;
+}
+
+.link {
+  display: flex;
+}
+
+.menu .link a {
+  text-decoration: none;
+  color: white;
+}
